@@ -55,11 +55,11 @@ public class TestNGTodo1 {
         Thread.sleep(2000);
         // Enter your login email id
         driver.findElement(By.id("email"))
-                .sendKeys("shubhamr@lambdatest.com");
+                .sendKeys("Enter email");
 
         // Enter your login password
         driver.findElement(By.id("password"))
-                .sendKeys("Gmail@123");
+                .sendKeys("Enter password");
         driver.findElement(By.id("login-button"))
                 .sendKeys(Keys.ENTER);
 
